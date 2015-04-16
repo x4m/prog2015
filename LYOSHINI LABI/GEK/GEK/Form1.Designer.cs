@@ -44,6 +44,7 @@
             this.BRemoveItem = new System.Windows.Forms.Button();
             this.BSave = new System.Windows.Forms.Button();
             this.BLoad = new System.Windows.Forms.Button();
+            this.BPrint = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -201,11 +202,22 @@
             this.BLoad.UseVisualStyleBackColor = true;
             this.BLoad.Click += new System.EventHandler(this.BLoad_Click);
             // 
+            // BPrint
+            // 
+            this.BPrint.Location = new System.Drawing.Point(15, 554);
+            this.BPrint.Name = "BPrint";
+            this.BPrint.Size = new System.Drawing.Size(75, 23);
+            this.BPrint.TabIndex = 51;
+            this.BPrint.Text = "Печать";
+            this.BPrint.UseVisualStyleBackColor = true;
+            this.BPrint.Click += new System.EventHandler(this.BPrint_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 589);
+            this.Controls.Add(this.BPrint);
             this.Controls.Add(this.BLoad);
             this.Controls.Add(this.BRemoveItem);
             this.Controls.Add(this.BSave);
@@ -249,6 +261,7 @@
         private System.Windows.Forms.Button BRemoveItem;
         private System.Windows.Forms.Button BSave;
         private System.Windows.Forms.Button BLoad;
+        private System.Windows.Forms.Button BPrint;
     }
 }
 

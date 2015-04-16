@@ -8,3 +8,15 @@ c:\users\лёха\documents\visual studio 2013\Projects\GEK\GEK\obj\Debug\GEK.cs
 c:\users\лёха\documents\visual studio 2013\Projects\GEK\GEK\obj\Debug\GEK.exe
 c:\users\лёха\documents\visual studio 2013\Projects\GEK\GEK\obj\Debug\GEK.pdb
 c:\users\лёха\documents\visual studio 2013\Projects\GEK\GEK\obj\Debug\GEK.CnAddDialog.resources
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\bin\Debug\GEK.exe.config
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.exe
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.pdb
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\bin\Debug\GEK.exe
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\bin\Debug\GEK.pdb
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.csprojResolveAssemblyReference.cache
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.CnAddDialog.resources
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.Form1.resources
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.Properties.Resources.resources
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.csproj.GenerateResource.Cache
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.exe.licenses
+C:\Users\Лёха\Desktop\prog2015\LYOSHINI LABI\GEK\GEK\obj\Debug\GEK.PrintSome.resources

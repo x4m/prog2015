@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using DevExpress.XtraReports.UI;
 
 namespace GEK
 {
@@ -19,15 +20,10 @@ namespace GEK
             InitializeComponent();
         }
 
-        private void BSave_Click(object sender, EventArgs e)
+        public Info GenInfo()
         {
-            var sfd = new SaveFileDialog() { Title = "Сохранение данных", Filter = "Показания счётчиков|*.CNDT" };
-            var result = sfd.ShowDialog(this);
-            if (result != DialogResult.OK)
-                return;
-
             var Inf = new Info();
-
+            
             Inf.Name = TBName.Text;
             Inf.Surname = TBSName.Text;
             Inf.Patronymic = TBPatr.Text;
@@ -37,10 +33,20 @@ namespace GEK
             {
                 Inf.Counters.Add(cn);
             }
+            return Inf;
+        }
+
+        private void BSave_Click(object sender, EventArgs e)
+        {
+            var sfd = new SaveFileDialog() { Title = "Сохранение данных", Filter = "Показания счётчиков|*.CNDT" };
+            var result = sfd.ShowDialog(this);
+            if (result != DialogResult.OK)
+                return;
+
 
             var xs = new XmlSerializer(typeof(Info));
             var file = File.Create(sfd.FileName);
-            xs.Serialize(file, Inf);
+            xs.Serialize(file, GenInfo());
             file.Close();
         }
 
@@ -85,6 +91,20 @@ namespace GEK
                 listBox1.Items.RemoveAt(listBox1.SelectedIndices[0]);
             }
     }
+
+        private void BPrint_Click(object sender, EventArgs e)
+        {
+            var rpt = new ReportPrintTool(new PrintSome()
+            {
+                DataSource = new BindingSource()
+                {
+                    DataSource = GenInfo()
+                }
+            });
+
+            rpt.Report.CreateDocument(false);
+            rpt.ShowPreview();
+        }
 
     }
 }
