@@ -1,0 +1,45 @@
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\bin\Debug\A2.exe.config
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\bin\Debug\A2.exe
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\bin\Debug\A2.pdb
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\A2.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\ws.FORMA.resources
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\ws.Form1.resources
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\A2.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\A2.exe
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\A2.pdb
+c:\users\user\documents\visual studio 2012\Projects\A2\A2\obj\Debug\ws.Properties.Resources.resources
+C:\Users\User\Desktop\A2\A2\bin\Debug\A2.exe.config
+C:\Users\User\Desktop\A2\A2\obj\Debug\A2.exe
+C:\Users\User\Desktop\A2\A2\obj\Debug\A2.pdb
+C:\Users\User\Desktop\A2\A2\bin\Debug\A2.exe
+C:\Users\User\Desktop\A2\A2\bin\Debug\A2.pdb
+C:\Users\User\Desktop\A2\A2\obj\Debug\A2.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\A2\A2\obj\Debug\ws.FORMA.resources
+C:\Users\User\Desktop\A2\A2\obj\Debug\ws.Form1.resources
+C:\Users\User\Desktop\A2\A2\obj\Debug\ws.Properties.Resources.resources
+C:\Users\User\Desktop\A2\A2\obj\Debug\A2.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\A2\A2\obj\Debug\A2.exe.licenses
+C:\Users\User\Desktop\a3\A2\bin\Debug\A2.exe.config
+C:\Users\User\Desktop\a3\A2\obj\Debug\A2.exe
+C:\Users\User\Desktop\a3\A2\obj\Debug\A2.pdb
+C:\Users\User\Desktop\a3\A2\bin\Debug\A2.exe
+C:\Users\User\Desktop\a3\A2\bin\Debug\A2.pdb
+C:\Users\User\Desktop\a3\A2\obj\Debug\A2.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\a3\A2\obj\Debug\ws.FORMA.resources
+C:\Users\User\Desktop\a3\A2\obj\Debug\ws.Form1.resources
+C:\Users\User\Desktop\a3\A2\obj\Debug\ws.Properties.Resources.resources
+C:\Users\User\Desktop\a3\A2\obj\Debug\ws.XtraReport1.resources
+C:\Users\User\Desktop\a3\A2\obj\Debug\A2.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\a3\A2\obj\Debug\A2.exe.licenses
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\bin\Debug\A2.exe.config
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\A2.exe
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\A2.pdb
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\bin\Debug\A2.exe
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\bin\Debug\A2.pdb
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\A2.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\ws.FORMA.resources
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\ws.Form1.resources
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\ws.Properties.Resources.resources
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\ws.XtraReport1.resources
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\A2.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\xxx\prog2015\artem_labi\A3\A2\obj\Debug\A2.exe.licenses
