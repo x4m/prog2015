@@ -28,41 +28,7 @@ namespace WindowsFormsApplication1
             if (result != DialogResult.OK)
                 return;
 
-          /*  var par = new Participant1();
-            par.TeamName = TeamNameBox.Text;
-            par.Town = TownBox.Text;
-            par.FI = FIBox.Text;
-            par.Size = (int)numericUpDown1.Value;
-            par.Email = EmailBox.Text;
-            par.TelNumber = TelNumberBox.Text;
 
-           if (MaleButton.Checked)
-            {
-                par.Gender = Gender.Male;
-            }
-            else
-            {
-                par.Gender = Gender.Female;
-            }
-            
-            if (JuniorButton.Checked)
-            {
-                par.TeamAge = TeamAge.Junior;
-            }
-            else
-                if  (VarsityButton.Checked)
-                    {
-                        par.TeamAge = TeamAge.Varsity;
-                    }
-                else
-                {
-                   par.TeamAge = TeamAge.Adult;
-                }
-
-            foreach (Participant ed in listBox1.Items)
-            {
-                par.Part.Add(ed);
-            } */
             Participant1 par = GetParticipant1();
 
             var xs = new XmlSerializer(typeof(Participant1));
@@ -174,6 +140,7 @@ namespace WindowsFormsApplication1
             file.Close();
 
 
+            listBox1.Items.Clear();
             TeamNameBox.Text = par.TeamName;
             TownBox.Text = par.Town;
             FIBox.Text = par.FI;
@@ -240,6 +207,11 @@ namespace WindowsFormsApplication1
         private void label1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
         }
     }
 }
