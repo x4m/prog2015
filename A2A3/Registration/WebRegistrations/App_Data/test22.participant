@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Participant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TeamName>12312312</TeamName>
+  <Town>123131</Town>
+  <Fi>123131</Fi>
+  <Gender>Male</Gender>
+  <Size>42</Size>
+  <Email>12313</Email>
+  <TelNumber>1231231</TelNumber>
+  <TeamAge>Junior</TeamAge>
+  <Part>
+    <ParticipantList>
+      <Name>333</Name>
+      <Age>333</Age>
+    </ParticipantList>
+  </Part>
+</Participant>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Participant1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TeamName>УрФУ</TeamName>
+  <Town>Екатеринбург</Town>
+  <Fi>Ахметов</Fi>
+  <Gender>Male</Gender>
+  <Size>46</Size>
+  <Email>Danil328@yandex.ru</Email>
+  <TelNumber>89826050275</TelNumber>
+  <TeamAge>Adult</TeamAge>
+  <Part>
+    <Participant>
+      <Name>Данил</Name>
+      <Age>18</Age>
+    </Participant>
+    <Participant>
+      <Name>Вадим</Name>
+      <Age>16</Age>
+    </Participant>
+  </Part>
+</Participant1>
