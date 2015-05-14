@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Drawing2D;
-/*using ChartDirector;*/
 using System.IO;
 
-namespace WindowsFormsApplication1
+namespace D1
 {
     /// <summary>
     /// This class provides methods to Resize and Apply Filters to bitmap images.
@@ -19,7 +17,7 @@ namespace WindowsFormsApplication1
     /// http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dncscol/html/csharp11152001.asp
     /// http://www.msnewsgroups.net/group/microsoft.public.dotnet.languages.csharp/topic9351.aspx
     /// </summary>
-    public unsafe class ImagerBitmap:IDisposable
+    public unsafe class ImagerBitmap : IDisposable
     {
         /// <summary>
         /// This struct is used to hold the RGB values when we find a pixel using the pointer
@@ -81,7 +79,7 @@ namespace WindowsFormsApplication1
         /// <param name="c">Color</param>
         public void SetPixel(int x, int y, Color c)
         {
-            if(x<0 || y<0 || x>=Width || y>=Height)
+            if (x < 0 || y < 0 || x >= Width || y >= Height)
                 return;
             PixelData* p = PixelAt(x, y);
             p->Red = c.R;
@@ -95,7 +93,7 @@ namespace WindowsFormsApplication1
 
         public void SetPixel(float x, float y, Color c)
         {
-            SetPixel((int)x,(int)y,c);
+            SetPixel((int)x, (int)y, c);
         }
         /// <summary>
         /// Get a pixel
@@ -977,12 +975,12 @@ namespace WindowsFormsApplication1
             }
         }
 
-        public void PolyClosed(List<PointF> path,Color c)
+        public void PolyClosed(List<PointF> path, Color c)
         {
-            if(path.Count==0)return;
+            if (path.Count == 0) return;
             if (path.Count == 1)
             {
-                SetPixel(path[0].X,path[0].Y,c);
+                SetPixel(path[0].X, path[0].Y, c);
                 return;
             }
 
@@ -993,27 +991,27 @@ namespace WindowsFormsApplication1
             Line(from1.X, from1.Y, to1.X, to1.Y, c);
         }
 
-        public void Poly(List<PointF> path,Color c)
+        public void Poly(List<PointF> path, Color c)
         {
-            if(path.Count==0)return;
+            if (path.Count == 0) return;
             if (path.Count == 1)
             {
-                SetPixel(path[0].X,path[0].Y,c);
+                SetPixel(path[0].X, path[0].Y, c);
                 return;
             }
 
             for (int i = 1; i < path.Count; i++)
             {
                 var from = path[i];
-                var to = path[i-1];
-                Line(from.X,from.Y,to.X,to.Y,c);
+                var to = path[i - 1];
+                Line(from.X, from.Y, to.X, to.Y, c);
             }
         }
 
         public void Cross(float x, float y, float width, Color green)
         {
-            Line(x-width,y-width,x+width,y+width,green);
-            Line(x-width,y+width,x+width,y-width,green);
+            Line(x - width, y - width, x + width, y + width, green);
+            Line(x - width, y + width, x + width, y - width, green);
         }
     }
 
