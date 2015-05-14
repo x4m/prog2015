@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
-using DevExpress.XtraReports.UI;
 
 namespace WindowsFormsApplication1
 {
@@ -29,9 +28,9 @@ namespace WindowsFormsApplication1
                 return;
 
 
-            Participant1 par = GetParticipant1();
+            Participant par = GetParticipant1();
 
-            var xs = new XmlSerializer(typeof(Participant1));
+            var xs = new XmlSerializer(typeof(Participant));
             var file = File.Create(sfd.FileName);
             xs.Serialize(file, par);
             file.Close();
@@ -47,12 +46,12 @@ namespace WindowsFormsApplication1
             }
         }
 
-        public Participant1 GetParticipant1()
+        public Participant GetParticipant1()
         {
-            var par = new Participant1();
+            var par = new Participant();
             par.TeamName = TeamNameBox.Text;
             par.Town = TownBox.Text;
-            par.FI = FIBox.Text;
+            par.Fi = FIBox.Text;
             par.Size = (int)numericUpDown1.Value;
             par.Email = EmailBox.Text;
             par.TelNumber = TelNumberBox.Text;
@@ -79,7 +78,7 @@ namespace WindowsFormsApplication1
                     par.TeamAge = TeamAge.Adult;
                 }
 
-            foreach (Participant ed in listBox1.Items)
+            foreach (ParticipantList ed in listBox1.Items)
             {
                 par.Part.Add(ed);
             }
@@ -134,16 +133,16 @@ namespace WindowsFormsApplication1
             if (result != DialogResult.OK)
                 return;
 
-            var xs = new XmlSerializer(typeof(Participant1));
+            var xs = new XmlSerializer(typeof(Participant));
             var file = File.OpenRead(ofd.FileName);
-            Participant1 par = (Participant1)xs.Deserialize(file);
+            Participant par = (Participant)xs.Deserialize(file);
             file.Close();
 
 
             listBox1.Items.Clear();
             TeamNameBox.Text = par.TeamName;
             TownBox.Text = par.Town;
-            FIBox.Text = par.FI;
+            FIBox.Text = par.Fi;
             numericUpDown1.Value =(int) par.Size;
             EmailBox.Text = par.Email;
             TelNumberBox.Text = par.TelNumber;
@@ -178,26 +177,13 @@ namespace WindowsFormsApplication1
                     VarsityButton.Checked = false;
                     AdultButton.Checked = false;
                 }
-           
-            foreach (Participant ed in par.Part)
+
+            foreach (ParticipantList ed in par.Part)
             {
                 listBox1.Items.Add(ed);
             }   
         }
 
-        private void PrintButton_Click(object sender, EventArgs e)
-        {
-            var rpt = new ReportPrintTool(new XtraReport1()
-            {
-                DataSource = new BindingSource()
-                {
-                    DataSource = GetParticipant1()
-                }
-            });
-
-            rpt.Report.CreateDocument(false);
-            rpt.ShowPreview();
-        }
 
         private void tabPage1_Click(object sender, EventArgs e)
         {

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Participant1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TeamName>H20</TeamName>
+  <Town>Екатеринбург</Town>
+  <FI>Денис Остров</FI>
+  <Gender>Male</Gender>
+  <Size>54</Size>
+  <Email>uoioio@gmail.com</Email>
+  <TelNumber>89226609426</TelNumber>
+  <TeamAge>Varsity</TeamAge>
+  <Part>
+    <Participant>
+      <Name>Поморцев Артем</Name>
+      <Age>29</Age>
+    </Participant>
+    <Participant>
+      <Name>Каблинова Анна</Name>
+      <Age>18</Age>
+    </Participant>
+    <Participant>
+      <Name>Евстигнеев Никита</Name>
+      <Age>20</Age>
+    </Participant>
+  </Part>
+</Participant1>

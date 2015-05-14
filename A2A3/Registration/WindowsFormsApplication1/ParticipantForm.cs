@@ -16,10 +16,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-        public Participant Data { get; set; }
+        public ParticipantList Data { get; set; }
         private void button2_Click(object sender, EventArgs e)
         {
-            Data = new Participant();
+            Data = new ParticipantList();
             Data.Name = textBoxName.Text;
             Data.Age = textBoxAge.Text;
 

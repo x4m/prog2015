@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Participant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TeamName>фсфс</TeamName>
+  <Town>фысфс</Town>
+  <Fi>фысфыс</Fi>
+  <Gender>Male</Gender>
+  <Size>42</Size>
+  <Email>фысф</Email>
+  <TelNumber>фысф</TelNumber>
+  <TeamAge>Varsity</TeamAge>
+  <Part>
+    <ParticipantList>
+      <Name>фысс</Name>
+      <Age>18</Age>
+    </ParticipantList>
+  </Part>
+</Participant>

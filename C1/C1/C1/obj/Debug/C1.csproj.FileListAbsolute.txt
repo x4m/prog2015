@@ -1,0 +1,6 @@
+D:\Лабы\prog2015\C1\C1\C1\bin\Debug\C1.exe.config
+D:\Лабы\prog2015\C1\C1\C1\bin\Debug\C1.exe
+D:\Лабы\prog2015\C1\C1\C1\bin\Debug\C1.pdb
+D:\Лабы\prog2015\C1\C1\C1\obj\Debug\C1.csprojResolveAssemblyReference.cache
+D:\Лабы\prog2015\C1\C1\C1\obj\Debug\C1.exe
+D:\Лабы\prog2015\C1\C1\C1\obj\Debug\C1.pdb
