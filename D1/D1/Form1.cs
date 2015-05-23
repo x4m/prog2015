@@ -79,10 +79,11 @@ namespace D1
 
         private void button4_Click(object sender, EventArgs e)
         {
-
             var bmp = pictureBox1.Image as Bitmap;
+            var dst = bmp.Clone() as Bitmap;
 
             using (var img = new ImagerBitmap(bmp))
+            using (var imgDst = new ImagerBitmap(dst))
             {
                 int gaussWidth = 1;
                 for (int x = gaussWidth; x < img.Width - 5; x++)
@@ -99,10 +100,10 @@ namespace D1
 
                         var newColor = neibourghs.OrderBy(n => n.Intensity).Skip(neibourghs.Count / 2).First().Color;
 
-                        img.SetPixel(x, y, newColor);
+                        imgDst.SetPixel(x, y, newColor);
                     }
 
-                pictureBox1.Image = img.Bitmap;
+                pictureBox1.Image = imgDst.Bitmap;
             }
         }
 
