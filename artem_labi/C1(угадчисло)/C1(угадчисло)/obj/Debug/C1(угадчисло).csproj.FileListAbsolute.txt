@@ -1,0 +1,10 @@
+c:\users\user\documents\visual studio 2012\Projects\C1(угадчисло)\C1(угадчисло)\bin\Debug\C1(угадчисло).exe.config
+c:\users\user\documents\visual studio 2012\Projects\C1(угадчисло)\C1(угадчисло)\bin\Debug\C1(угадчисло).exe
+c:\users\user\documents\visual studio 2012\Projects\C1(угадчисло)\C1(угадчисло)\bin\Debug\C1(угадчисло).pdb
+c:\users\user\documents\visual studio 2012\Projects\C1(угадчисло)\C1(угадчисло)\obj\Debug\C1(угадчисло).exe
+c:\users\user\documents\visual studio 2012\Projects\C1(угадчисло)\C1(угадчисло)\obj\Debug\C1(угадчисло).pdb
+C:\Users\User\Desktop\C1(угадчисло)\C1(угадчисло)\bin\Debug\C1(угадчисло).exe.config
+C:\Users\User\Desktop\C1(угадчисло)\C1(угадчисло)\obj\Debug\C1(угадчисло).exe
+C:\Users\User\Desktop\C1(угадчисло)\C1(угадчисло)\obj\Debug\C1(угадчисло).pdb
+C:\Users\User\Desktop\C1(угадчисло)\C1(угадчисло)\bin\Debug\C1(угадчисло).exe
+C:\Users\User\Desktop\C1(угадчисло)\C1(угадчисло)\bin\Debug\C1(угадчисло).pdb
