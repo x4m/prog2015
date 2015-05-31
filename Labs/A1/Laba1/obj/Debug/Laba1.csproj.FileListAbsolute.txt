@@ -1,0 +1,21 @@
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\bin\Debug\Laba1.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\bin\Debug\Laba1.exe
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\bin\Debug\Laba1.pdb
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\obj\Debug\Laba1.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\obj\Debug\Laba1.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\obj\Debug\Laba1.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\obj\Debug\Laba1.exe
+c:\users\user\documents\visual studio 2013\Projects\Laba1\Laba1\obj\Debug\Laba1.pdb
+D:\Laba1\Laba1\bin\Debug\Laba1.exe.config
+D:\Laba1\Laba1\obj\Debug\Laba1.exe
+D:\Laba1\Laba1\obj\Debug\Laba1.pdb
+D:\Laba1\Laba1\bin\Debug\Laba1.exe
+D:\Laba1\Laba1\bin\Debug\Laba1.pdb
+D:\Laba1\Laba1\obj\Debug\Laba1.csprojResolveAssemblyReference.cache
+D:\Laba1\Laba1\obj\Debug\Laba1.Form1.resources
+D:\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+D:\Laba1\Laba1\obj\Debug\Laba1.csproj.GenerateResource.Cache
+F:\Laba1\Laba1\bin\Debug\Laba1.exe.config
+F:\Laba1\Laba1\obj\Debug\Laba1.exe
+F:\Laba1\Laba1\obj\Debug\Laba1.pdb
