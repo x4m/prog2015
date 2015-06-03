@@ -1,0 +1,47 @@
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\bin\Debug\Contacts.exe
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\bin\Debug\Contacts.pdb
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\obj\x86\Debug\Contacts.Form1.resources
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\obj\x86\Debug\Contacts.csproj.GenerateResource.Cache
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\obj\x86\Debug\Contacts.exe
+C:\Users\Паша\AppData\Local\Temporary Projects\Contacts\obj\x86\Debug\Contacts.pdb
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.exe
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.pdb
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Debug\ContactDB.sdf
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Debug\Contacts.exe.config
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Debug\Contacts.exe
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Debug\Contacts.pdb
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.Form1.resources
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.csproj.GenerateResource.Cache
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Debug\Contacts.exe.manifest
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Debug\Contacts.application
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.exe.manifest
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.application
+C:\Users\Паша\Documents\Visual Studio 2010\Projects\Contacts\Contacts\obj\x86\Debug\Contacts.csprojResolveAssemblyReference.cache
+F:\Contacts пахана\Contacts\bin\Debug\Contacts.exe.config
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.exe
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.pdb
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.csprojResolveAssemblyReference.cache
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.Form1.resources
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.csproj.GenerateResource.Cache
+F:\Contacts пахана\Contacts\bin\Debug\Contacts.exe.manifest
+F:\Contacts пахана\Contacts\bin\Debug\Contacts.application
+F:\Contacts пахана\Contacts\bin\Debug\Contacts.exe
+F:\Contacts пахана\Contacts\bin\Debug\Contacts.pdb
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.exe.manifest
+F:\Contacts пахана\Contacts\obj\x86\Debug\Contacts.application
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.exe
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.pdb
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\bin\Debug\Contacts.exe.manifest
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\bin\Debug\Contacts.application
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\bin\Debug\Contacts.exe
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\bin\Debug\Contacts.pdb
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.Form1.resources
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.Properties.Resources.resources
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.csproj.GenerateResource.Cache
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.exe.manifest
+C:\Users\Фёдор\Desktop\Contacts пахана\Contacts\obj\x86\Debug\Contacts.application
