@@ -1,0 +1,13 @@
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Release\ContactDB.sdf
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Release\Contacts.exe.config
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Release\Contacts.exe.manifest
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Release\Contacts.application
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Release\Contacts.exe
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\bin\Release\Contacts.pdb
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.Form1.resources
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.Properties.Resources.resources
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.csproj.GenerateResource.Cache
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.exe.manifest
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.application
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.exe
+c:\users\паша\documents\visual studio 2010\Projects\Contacts\Contacts\obj\x86\Release\Contacts.pdb

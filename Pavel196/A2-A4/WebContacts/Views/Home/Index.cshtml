@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    @Html.Label("ID company: ")
+    @Model.Dcompany
+</div>
+<div>
+    @Html.Label("Имя:")
+    @Model.Name
+</div>
+<div>
+    @Html.Label("Company: ")
+    @Model.Company
+</div>
+<div>
+    @Html.Label("Last Call: ")
+    @Model.LastCall
+</div>
+<div>
+    @Html.Label("Telephone:")
+    @Model.Telephone
+</div>
+<div>
+    @Html.Label("Email:")
+    @Model.Email
+</div>
+
+
+
+
+<form id="Contacts" action="/home/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="file" />
+    <button type="submit">
+        Загрузить файл
+    </button>
+</form>
