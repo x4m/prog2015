@@ -1,0 +1,16 @@
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\bin\Debug\TBlab.exe.config
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.csprojResolveAssemblyReference.cache
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.Form1.resources
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.Properties.Resources.resources
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.csproj.GenerateResource.Cache
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\bin\Debug\TBlab.exe
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\bin\Debug\TBlab.pdb
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.exe
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.pdb
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\bin\Debug\TBlab.exe.manifest
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\bin\Debug\TBlab.application
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.exe.manifest
+c:\users\фёдор\documents\visual studio 2013\Projects\TBlab\TBlab\obj\Debug\TBlab.application
+C:\Users\Данил\YandexDisk\TBlab\TBlab\bin\Debug\TBlab.exe.config
+C:\Users\Данил\YandexDisk\TBlab\TBlab\obj\Debug\TBlab.exe
+C:\Users\Данил\YandexDisk\TBlab\TBlab\obj\Debug\TBlab.pdb
