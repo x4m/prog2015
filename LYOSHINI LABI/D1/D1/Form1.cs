@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,8 +29,7 @@ namespace D1
                     for (int y = 0; y < img.Height; y++)
                     {
                         var px = img.GetPixel(x, y);
-                        var intensity = px.R + px.B + px.G;
-                        intensity /= 3;
+                        var intensity = (int)(px.R*0.16 + px.B*0.6 + px.G*0.24);
                         Color newColor = Color.FromArgb(intensity, intensity, intensity);
                         img.SetPixel(x,y,newColor);
                     }
@@ -166,6 +166,60 @@ namespace D1
             }
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var ofd = new OpenFileDialog() { Title = "Load Image", Filter = "Image Files (*.bmp, *.jpg, *.png)|*.bmp;*.jpg;*.png" };
+            var result = ofd.ShowDialog(this);
+            if (result != DialogResult.OK)
+                return;
+            origin = Image.FromFile(ofd.FileName) as Bitmap;
+            pictureBox1.Image = origin.Clone() as Bitmap;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (Clipboard.ContainsImage())
+            {
+                origin = Clipboard.GetImage() as Bitmap;
+                pictureBox1.Image = origin.Clone() as Bitmap;                
+            }
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetImage(pictureBox1.Image);
+        }
+
+        private void Form1_DragDrop(object sender, DragEventArgs e)
+        {
+            bool ret = false;
+            string filename = String.Empty;
+            if ((e.AllowedEffect & DragDropEffects.Copy) == DragDropEffects.Copy)
+            {
+                Array data = ((IDataObject)e.Data).GetData("FileDrop") as Array;
+                if (data != null)
+                {
+                    if ((data.Length == 1) && (data.GetValue(0) is String))
+                    {
+                        filename = ((string[])data)[0];
+                        string ext = Path.GetExtension(filename).ToLower();
+                        if ((ext == ".jpg") || (ext == ".png") || (ext == ".bmp"))
+                        {
+                            origin = Image.FromFile(filename) as Bitmap;
+                            pictureBox1.Image = origin.Clone() as Bitmap;
+                        }
+                    }
+                }
+            }
+        }
+
+        private void Form1_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Copy;
+        }
+
     }
 
     class MedianPixel
