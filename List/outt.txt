@@ -1,1 +1,4 @@
-1
+A2+A3 https://github.com/outt/prog2015/commit/7976782fd5a108ef50c9df2c8168f41d2f00ac64#commitcomment-10884248
+C1 https://github.com/outt/prog2015/commit/ae3019dd6bc684a25e2243cdfce6d73b309fa2f0#commitcomment-11556351
+D1 https://github.com/outt/prog2015/commit/4a5bc57c6858ec1143e2728eb223854cc5397b71#commitcomment-115563
+Ожидаемая оценка: 5
