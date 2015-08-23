@@ -52,7 +52,6 @@
             this.MaleButton = new System.Windows.Forms.RadioButton();
             this.FemaleButton = new System.Windows.Forms.RadioButton();
             this.GenderPanel = new System.Windows.Forms.Panel();
-            this.PrintButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.TeamAgePanel.SuspendLayout();
@@ -109,7 +108,7 @@
             // FI
             // 
             this.FI.AutoSize = true;
-            this.FI.Location = new System.Drawing.Point(48, 77);
+            this.FI.Location = new System.Drawing.Point(49, 74);
             this.FI.Name = "FI";
             this.FI.Size = new System.Drawing.Size(105, 13);
             this.FI.TabIndex = 5;
@@ -307,17 +306,6 @@
             this.GenderPanel.Size = new System.Drawing.Size(80, 26);
             this.GenderPanel.TabIndex = 20;
             // 
-            // PrintButton
-            // 
-            this.PrintButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.PrintButton.Location = new System.Drawing.Point(12, 414);
-            this.PrintButton.Name = "PrintButton";
-            this.PrintButton.Size = new System.Drawing.Size(119, 39);
-            this.PrintButton.TabIndex = 26;
-            this.PrintButton.Text = "Печать";
-            this.PrintButton.UseVisualStyleBackColor = true;
-            this.PrintButton.Click += new System.EventHandler(this.PrintButton_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -349,7 +337,6 @@
             this.ClientSize = new System.Drawing.Size(754, 462);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.PrintButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.numericUpDown1);
@@ -410,7 +397,6 @@
         private System.Windows.Forms.RadioButton MaleButton;
         private System.Windows.Forms.RadioButton FemaleButton;
         private System.Windows.Forms.Panel GenderPanel;
-        private System.Windows.Forms.Button PrintButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
     }

@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    @Html.Label("Название команды:")
+    @Model.TeamName
+</div>
+<div>
+    @Html.Label("Город:")
+    @Model.Town
+</div>
+<div>
+    @Html.Label("Имя руководителя:")
+    @Model.Fi
+</div>
+<div>
+    @Html.Label("Пол:")
+    @Model.GenderInRussian
+</div>
+<div>
+    @Html.Label("Размер футболки:")
+    @Model.Size
+</div>
+<div>
+    @Html.Label("E-mail:")
+    @Model.Email
+</div>
+<div>
+    @Html.Label("Телефон:")
+    @Model.TelNumber
+
+</div>
+<div>
+    @Html.Label("Возрастная категория:")
+    @Model.AgeGroup
+
+</div>
+<div>
+    @Html.Label("Участники:")
+</div>
+@foreach (var ParticipantList in Model.Part)
+{
+    <div>
+        @ParticipantList
+    </div>
+}
+
+<form id="Part" action="/home/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="file" />
+    <button type="submit">
+        Загрузить файл
+    </button>
+</form>

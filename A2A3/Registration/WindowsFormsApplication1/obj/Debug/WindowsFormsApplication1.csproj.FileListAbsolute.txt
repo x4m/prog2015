@@ -31,3 +31,16 @@ D:\Лабы\prog2015\A2A3\Registration\WindowsFormsApplication1\obj\Debug\Window
 D:\Лабы\prog2015\A2A3\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.XtraReport1.resources
 D:\Лабы\prog2015\A2A3\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 D:\Лабы\prog2015\A2A3\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.licenses
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainForm.resources
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ParticipantForm.resources
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Фёдор\Desktop\Registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Registration\Registration\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Registration\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Registration\Registration\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
